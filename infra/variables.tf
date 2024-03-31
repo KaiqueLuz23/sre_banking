@@ -35,15 +35,15 @@ variable "master_password" {
 variable "vcp_id" {
   type        = string
   description = "ID VPC"
-  default = "vpc-05bc35b1f393c5ad2"
+  default = "$VPC_ID"
 }
 variable "subnet_ids" {
   type        = list(string)
   description = "Lista de IDs das subnets"
-  default = ["subnet-07acbf92583406f19", "vpc-05bc35b1f393c5ad2"] # AZ1, AZ2
+  default = ["$SUBNET_AZ1", "$SUBNET_AZ2"] # AZ1, AZ2
 }
 variable "sg_rds_id" {
   type        = list(string)
   description = "ID VPC"
-  default = ["sg-07e90b0563f16abf3"]
+  default = ["$SG_RDS_ID"]
 }
