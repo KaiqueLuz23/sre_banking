@@ -20,5 +20,4 @@ resource "aws_api_gateway_integration" "lambda_integration_status" {
   integration_http_method = "POST"
   type                    = "AWS_PROXY"
   uri                     = aws_lambda_function.extrato_account_lambda.invoke_arn
-  # uri                     = aws_lambda_function.bank_account_lambda.invoke_arn
 }
