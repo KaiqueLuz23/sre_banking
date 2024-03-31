@@ -3,17 +3,37 @@ project/
 ├── app/
 │   ├── bank_account_lambda.py
 │   ├── extrato_account_lambda.py
-│  
+│   └── pix_account_lambda.py
+│
 ├── finops/
-│   ├── extrato_function/
-│   │   ├── extrato.py
-│   │   └── lambda_handler.py
+│   ├── cfn_auto_start_stop_ec2/
+│   │   └── template/cfn_auto_start_stop_ec2.yaml
+│   ├── cfn_auto_start_stop_rds/
+│   │   └── template/cfn_auto_start_stop_rds.yaml│   
 │   │
 ├── infra/
 │   ├── api_create.tf
 │   ├── api_extrato.tf
+│   ├── api_pix.tf
 │   ├── api_status.tf
+│   ├── apigateway.tf
+│   ├── aurora.tf
+│   ├── dynamodb.tf
+│   ├── iam.tf
+│   ├── lambda.tf
+│   ├── output.tf
+│   ├── provider.tf
+│   └──variables.tf
 │   
 ├── teste/
+│   ├── requirements.txt
+│   ├── teste_unit.py
+│   └── SRE_BANK_POSTMAN.postman_collection.json
+│
+├── .gitlab-ci.py
+├── README.md
+├── sre_bank.drawio.png
+├── sre_bank.drawio.svg
 │  
-└──.gitlab-ci.py
+└── structure_project.txt
+
