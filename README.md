@@ -2,7 +2,7 @@
 
 SRE BANK é um projeto de sistema bancário desenvolvido com o objetivo de fornecer uma plataforma robusta e eficiente para serviços financeiros. Utilizando as melhores práticas de SRE, este projeto visa oferecer alta disponibilidade, escalabilidade e confiabilidade.
 
-![Exemplo](sre_bank.drawio.png)
+![Exemplo](sre_bank.drawio.svg)
 
 
 ## Tecnologias Utilizadas
@@ -22,4 +22,4 @@ O projeto SRE BANK foi construído utilizando Python para o desenvolvimento das 
 
 ---
 
-*Observação: Substitua "Seu Nome/Aplicativo" pelo seu nome de usuário do GitHub ou o nome da sua organização, conforme aplicável.*
+*Observação: *
