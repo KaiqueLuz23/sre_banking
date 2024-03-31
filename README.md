@@ -22,4 +22,4 @@ O projeto SRE BANK foi construído utilizando Python para o desenvolvimento das 
 
 ---
 
-*Observação: *
+*Observação: O arquivo `infra/aurora.tf` não está sendo criado durante o comando "terraform apply". Para criar, descomente o arquivo. Ele contém algumas tags para "ligar" e "desligar" em horários customizáveis. Para isso, é necessário aplicar as políticas da pasta `.\finops\cfn_auto_start_stop_rds\*`.*
